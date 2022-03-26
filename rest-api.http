@@ -55,7 +55,7 @@ Content-Disposition: form-data; name="file"; filename="sample.jpg"
 < sample.jpg
 --WebAppBoundary--
 
-###
+####
 
 POST http://localhost:8884/tesseract
 Content-Type: multipart/form-data; boundary=WebAppBoundary
